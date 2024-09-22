@@ -7,9 +7,47 @@
     border-radius:1.5em;
     box-shadow: 10% 10% 10%;
     background-color:coral;
-    color: aliceblue;
+    color:antiquewhite
+}
+
+.texto{
+    font-size: 3em;
+    color:antiquewhite
+}
+
+.cor{
+    text-decoration: none;
+    color:antiquewhite
+}
+
+.nav{
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.bottom{
+    border-radius: 0.5em;
+    background-color:brown;
+    padding: 0.5em;
+}
+
+.bottom:hover{
+    background-color: rgb(212, 80, 80);
+    padding: 0.5em;
+    transition: 0.5s;    
 }
 
 .fundo{
     background-color: brown;
+}
+
+img{
+    width: 90%;
+    border-radius: 0.5em;
+    margin-bottom:0.5em
+}
+
+.parte{
+    column-count: 4;
+    column-gap: 2
 }
